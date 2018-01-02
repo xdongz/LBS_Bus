@@ -1,2 +1,2 @@
 # LBS_Bus
-Announcing the stops for regular bus
+![py27](https://img.shields.io/badge/Python-2.7-orange.svg)
