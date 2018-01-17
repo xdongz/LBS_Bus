@@ -1,6 +1,6 @@
 # LBS_Bus
 ![py27](https://img.shields.io/badge/Python-2.7-orange.svg)
-![itchat](https://img.shields.io/badge/itchat-1.3.5-brightgreen.svg)
+![itchat](https://img.shields.io/badge/itchat-1.3.10-brightgreen.svg)
 ![Qpython](https://img.shields.io/badge/Qpyhthon-L-red.svg)
 
 LBS_Bus是一个自动报站的小程序。
