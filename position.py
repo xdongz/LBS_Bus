@@ -157,11 +157,8 @@ def initial_station():
             werobot.sendmess('距离蓝晶国际约需'+duration2)
             break
             
-
-
 initial=threading.Thread(target=initial_station)    
 initial.start()
-
 
 timer=threading.Timer(1,locate)
 timer.start()
