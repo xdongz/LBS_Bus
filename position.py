@@ -159,8 +159,8 @@ class Position:
 def main():
     itchat.auto_login(enableCmdQR=True, hotReload=True)
     
-	bus_position = Position()
-	initial=threading.Thread(target = bus_position.initial_station)    
+    bus_position = Position()
+    initial=threading.Thread(target = bus_position.initial_station)    
     initial.start()
 
     bus_position.timer=threading.Timer(1,bus_position.locate)
