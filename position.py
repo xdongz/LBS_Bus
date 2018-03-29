@@ -54,8 +54,8 @@ class Position:
         self.lngx = gps['longitude']
         self.lngy = gps['latitude']
 		
-		self.translate()
-		self.compare_station()
+	self.translate()
+	self.compare_station()
 		
         tt=10
         self.timer=threading.Timer(tt,self.locate)
